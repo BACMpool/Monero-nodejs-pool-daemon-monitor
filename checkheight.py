@@ -1,7 +1,9 @@
 #
 # Monero NODEJS POOL Daemon/API Monitor
 #
-# This script compares pool API and pool Monero Daemon height with other pools and nodes in the network to monitor sync
+# This script compares pool API and Monero Daemon height with other pools and nodes in the network to monitor sync
+#
+# Thanks to bitmoeda for the help!
 #
 import requests
 from time import sleep
